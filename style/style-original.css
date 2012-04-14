@@ -1,3 +1,76 @@
 body {
 	font: 75% Helvetica, Verdana, Sans-serif;
 }
+
+p {
+	box-shadow: 0 0 15px rgba(255, 0, 0, 0.9);
+	border-radius: 0 0 10px 10px;
+	padding: 0px 5px;
+	margin: 0px 175px;
+	background-color: rgb(255, 255, 0);
+}
+
+a {
+	color: rgb(255,255,255);
+}
+
+header {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	background-color: rgb(10, 200, 250);
+	height: 50px;
+}
+
+header h1 {
+	float: right;
+	margin: 20px 5px 0 0;
+	color: rgb(255,255,255);
+}
+
+nav {
+	margin: 20px 0;
+}
+
+nav a {
+	box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	background-color: rgb(10, 200, 250);
+	padding: 10px;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	background-color: rgb(22, 241, 27);
+}
+
+footer {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	border-radius: 0 0 10px 10px;
+	background-color: rgb(10, 200, 250);
+	height: 40px;
+	padding: 5px;
+}
+
+aside {
+	width: 150px;
+	height: 150px;
+	float: right;
+	box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	background-color: rgb(22, 241, 27);
+	padding: 5px;
+}
+
+article {
+	margin: 20px 0;
+}
+
+article h2 {
+	box-shadow: 0 0 15px rgba(255, 0, 0, 0.9);
+	border-radius: 10px 10px 0 0;
+	padding: 0px 5px;
+	margin: 0px 175px;
+	color: rgb(255, 0, 0);
+}
+
